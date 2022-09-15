@@ -5,6 +5,20 @@ import os
 
 colorama.init()
 
+data = {
+    "far_land_town": {
+        "places": {
+            "curPos": None,
+        }
+    },
+    "forests": {
+
+    },
+    "emperial_city": {
+
+    }
+}
+
 def prompt(args=''):
     inp = input(f"{Fore.YELLOW + args}>{Fore.LIGHTBLUE_EX}{Style.BRIGHT} ")
     return inp
