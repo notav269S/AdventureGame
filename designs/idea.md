@@ -16,7 +16,7 @@ Welcome To Far Land Town Located at the Very North of Your Map. For a Guide on H
 
 <span style='color:yellow'>\> </span><span style = 'color:lightblue'>help</span>
 
-<span style='color:lightgreen'>The command prompt involves two words. One, the command(eg. look,overview etc.) and two, the arguments of the word which changes based on the command. The game is coded such that you don't have to type a command and be prompted next for the argument, instead it is mixed into a single prompt. Some commands are situation based but they do have a separate message when entered in the wrong circumstance. Commands Include:<br/>
+<span style='color:lightgreen'>The command prompt involves two words. One, the command(eg. look,overview etc.) and two, the arguments of the word which changes based on the command. If the arguments have more than one word, it is split with an underscore.The game is coded such that you don't have to type a command and be prompted next for the argument, instead it is mixed into a single prompt. Some commands are situation based but they do have a separate message when entered in the wrong circumstance. Commands Include:<br/><br>
 <span style='color:pink'>
 **LOAD** - load a save. <br/>
 **LOOK** - to look or view your surroundings, you can also use it to interact with people or objects. <br/>
@@ -34,8 +34,10 @@ Welcome To Far Land Town Located at the Very North of Your Map. For a Guide on H
 **SAVE** - save your current world.<br/>
 **QUIT** - quit the game.<br>
 **QUESTS** - quests menu. <br>
-**EARN** - earn coins, takes an argument to work or hunt.
-
+**EARN** - earn coins, takes an argument to work or hunt.<br>
+**SEARCH** - search for something nearby.<br>
+**RECIPES - get the recipe of an item.
+<br>
 <span style='color:yellow'>\> </span><span style='color:lightblue'>look fountain</span>
 
 <span style='color:lightgreen'>Locals say that the fountain of idkrn dates back to 1200 years. It is the place where people meet and relax. Some say that the town would not be as popular without the fountain.</span>
@@ -98,7 +100,7 @@ __***GAME QUITS***__
 
 <span style='color:lightgreen'>Evolution is based on the evolution attribute for which yours is currently 0. Your character evolves getting these points. Each 10 points means 1 evolution and there are 5 stages. <br>**None -> Powerful -> Psychic -> Mega -> Ultimate**</span>
 
-<span style='color:yellow'>\> </span><span style='color:lightblue'>move shop battle</span>
+<span style='color:yellow'>\> </span><span style='color:lightblue'>move shop_battle</span>
 
 <span style='color:lightgreen'>Kits: Iron, Gold, Crystal, Diamond, Graphene</span>
 
@@ -106,7 +108,7 @@ __***GAME QUITS***__
 
 <span style='color:lightgreen'>That would cost 1,000,000 coins. Your balance is 20. You cannot buy that kit yet.</span>
 
-<span style='color:yellow'>\> </span><span style='color:lightblue'>move shop battle</span>
+<span style='color:yellow'>\> </span><span style='color:lightblue'>move shop_battle</span>
 
 <span style='color:lightgreen'>Kits: Iron, Gold, Crystal, Diamond, Graphene</span>
 
@@ -130,4 +132,42 @@ __***GAME QUITS***__
 
 <span style='color:lightgreen'>You left the town square</span>
 
-<span style='color:yellow'>\> </span><span style='color:lightblue'></span>
+<span style='color:yellow'>\> </span><span style='color:lightblue'>search blue_mushroom</span>
+
+<span style='color:lightgreen'>Searching for a blue mushroom-Search minigame loading...</span>
+
+<span style='color:lightgreen'>Type the word which shows up on the sceen as fast as possible. For rarer items the time given is shorter to beat. The word will show up anywhere between 4-7 seconds.</span>
+
+<span style='color:lightgreen'>**boredom**</span>
+
+<span style='color:yellow'>\> </span><span style='color:lightblue'>boredom</span>
+
+<span style='color:lightgreen'>You typed it in time! You got the blue mushroom. If you did this for a quest, enter quest reload.</span>
+
+<span style='color:yellow'>\> </span><span style='color:lightblue'>quest reload</span>
+
+<span style='color:lightgreen'>You have finished the blue mushroom quest. You get 60 coins. You now have 80 coins.</span>
+
+<span style='color:yellow'>\> </span><span style='color:lightblue'>inventory</span>
+
+<span style='color:lightgreen'>**Items**:<br>None<br><br>**Consumables**:<br>None<br><br>**Money and Current Battle Kit**:<br>Coins: 80<br>Battle Kit: None</span>
+
+<span style='color:yellow'>\> </span><span style='color:lightblue'>go north</span>
+
+<span style='color:lightgreen'>You left the reservoir</span>
+
+<span style='color:yellow'>\> </span><span style='color:lightblue'>go north</span>
+
+<span style='color:lightgreen'>You left the town square</span>
+
+<span style='color:yellow'>\> </span><span style='color:lightblue'>quests</span>
+
+<span style='color:lightgreen'> quests are active. You could go to the questmaster to get more.<br>**Get a Golden Apple** - 140 Coins</br>**Get an Iron Battle kit** - 200 Coins</span>
+
+<span style='color:yellow'>\> </span><span style='color:lightblue'>go questmaster</span>
+
+<span style='color:lightgreen'>Would you like to get new quests or reroll current quests? Your quest capacity is 3 and it would cost 50 coins to reroll.</span>
+
+<span style='color:yellow'>New/Reroll\> </span><span style='color:lightblue'>new</span>
+
+<span style='color:lightgreen'>New quest: **Make Mushroom Stew** - 50 Coins</span>
